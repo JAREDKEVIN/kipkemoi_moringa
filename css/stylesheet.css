@@ -21,53 +21,61 @@ color: rgb(126, 126, 5);
 }
 
 /* This is the third block */
-
-
-.burgerbell 
+#block3
 {
-    box-sizing:border-box;
+display: flex;
+}
+
+.burgerbell
+{
+    box-sizing:content-box;
     text-overflow: clip;
-    padding: 35px;
+    padding: 25px;
     color: black;
-    background-color: white;
+    background-color: #E1EBE6;
     border: 2px solid yellow;
-    object-fit: cover;
+    object-fit:cover;
     font-family: poppins;
-    width: 20%;
-    
+    text-align: center;
+    width: 50;
+    height:40;
     display: flex;
     overflow:visible;
 }
+
 .lorry
 {
-    box-sizing:border-box;
-  text-overflow: clip;
-    padding: 35px;
+    box-sizing:content-box;
+    text-overflow: clip;
+    padding: 25px;
     color: black;
-    background-color: white;
+    background-color: #E1EBE6;
     border: 2px solid yellow;
-    object-fit:contain ;
+    object-fit:cover;
     font-family: poppins;
-    width: 30%;
+    text-align: center;
+    width: 50;
+    height:40;
     display: flex;
     overflow:visible;
 }
 
 .order
 {
-    box-sizing: border-box;
+    box-sizing:content-box;
     text-overflow: clip;
-    padding: 20px;
-    color:black;
-    background-color: white;
+    padding: 25px;
+    color: black;
+    background-color: #E1EBE6;
     border: 2px solid yellow;
-    object-fit: cover;
+    object-fit:cover;
     font-family: poppins;
-    width: 30%;
+    text-align: center;
+    width: 50;
+    height:40;
     display: flex;
     overflow:visible;
 }
-
 
 
 /* This is the fourth block */
