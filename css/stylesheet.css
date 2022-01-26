@@ -14,6 +14,15 @@ color: rgb(126, 126, 5);
 #block2
 {
 }
+
+.cityburger
+{
+width: 300px;
+height: 500px;
+float: right;
+display: flex;
+}
+
 .rain
 {
     font-size: 180%;
@@ -104,12 +113,11 @@ width: 200px
 
 
 
-
-
-
-
-
-
+.doubleburger1 
+{
+    float:right;
+    display:flex;
+}
 
 body
 {
@@ -117,13 +125,7 @@ font-family: poppins;
 background-color: #E1EBE6;
 }
 
-.cityburger
-{
-width: 300px;
-height: 500px;
-float: right;
-display: flex;
-}
+
 
 .Taste
 {
@@ -135,10 +137,4 @@ font-size: 120%;
 {
     background-color: #F6B400;
     font-size: 170%;
-}
-
-#block3
-{
-    display: flex;
-    display:flexbox;
 }
