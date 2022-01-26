@@ -1,0 +1,106 @@
+/* This is the first block */
+#block1
+{}
+
+#burger
+{
+font-family: poppins;
+color: rgb(126, 126, 5);
+}
+
+
+/* This is the second block */
+
+#block2
+{
+}
+.rain
+{
+    font-size: 180%;
+    font-family: poppins;
+}
+/* This is the third block */
+#block3
+{
+display: flexbox;
+display: flex;
+}
+
+.burgerbell
+{
+    display: flex;
+    display: flexbox;
+}
+
+.lorry
+{
+    display: flex;
+    display: flexbox;
+}
+
+.order
+{
+    display: flex;
+    display: flexbox;
+}
+
+/* This is the fourth block */
+#block4
+{
+display: flexbox;
+display: flex;
+}
+
+
+
+
+/* This is the fifth block */
+#block5{}
+
+
+
+
+/* This is the sixth block */
+#block6{}
+
+
+
+
+
+
+
+
+
+
+
+body
+{
+font-family: poppins;
+background-color: #E1EBE6;
+}
+
+.cityburger
+{
+width: 400px;
+height: 700px;
+float: right;
+display: flex;
+}
+
+.Taste
+{
+font-family: poppins;
+font-size: 120%;
+}
+
+#orderhere
+{
+    background-color: #F6B400;
+    font-size: 170%;
+}
+
+#block3
+{
+    display: flex;
+    display:flexbox;
+}
