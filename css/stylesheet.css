@@ -6,8 +6,13 @@ padding:0px;
 
 /* This is the first block */
 #block1
-{}
-
+{
+}
+.links
+{
+    float:right;
+    display: inline;
+}
 #burger
 {
 font-family: poppins;
@@ -49,7 +54,7 @@ display: flex;
     padding: 25px;
     color: black;
     background-color: #E1EBE6;
-    border: 2px solid yellow;
+    border: 2px solid rgba(165, 42, 42, 0.541);
     object-fit:cover;
     font-family: poppins;
     text-align: center;
@@ -61,6 +66,7 @@ display: flex;
 
 .lorry
 {
+    border-image: none;
     box-sizing:content-box;
     text-overflow: clip;
     padding: 25px;
@@ -151,11 +157,12 @@ font-size: 120%;
 }
 
 
-font-weight:bold
-display: inline
-margin:0 20px
-list-style:none
-text-decoration:none
+font-weight:bold;
+display: inline;
+margin:0 20px;
+list-style:none;
+text-decoration:none;
+align-content:centre;
 
 ul li a:hover{
     color:white
@@ -163,3 +170,6 @@ ul li a:hover{
 
 list_style:none;
 position:absolute;
+justify-content:centre;
+align-items:picture-in-picture;
+flex-wrap:wrap;
