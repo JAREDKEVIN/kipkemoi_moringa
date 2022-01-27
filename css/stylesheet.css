@@ -20,6 +20,7 @@ ul li a:hover{
 
 ul li{
     display: inline;
+  
     
 }
 
@@ -41,13 +42,13 @@ ul li{
 {
     height: 70px;
     padding-bottom: 0px;
+    padding-top: 0px;
     display: flex;
     
 }
 
 #burger 
 {
-    color: yellow;
 height: 20px;
 padding-bottom: 120px;
 padding-top: 0px;
@@ -76,8 +77,39 @@ display: flex;
 
 .rain
 {
-    font-size: 180%;
+    height: 50px;
+    padding-top:20px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    font-size: 50px;
     font-family: poppins;
+}
+
+.Taste
+{
+    margin:50px;
+    height:30px;
+    padding-top:20px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+font-family: poppins;
+font-size: 120%;
+justify-content: center;
+}
+
+#orderhere
+{
+    height: 2px 0px 5px;
+    margin:20px;
+    padding-left:40px 20px;
+    padding-top: auto;
+    background-color: orange;
+    font-size: 25px;
+    border-radius:10px 10px 0px 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    justify-content: center;
 }
 
 /* This is the third block */
@@ -89,6 +121,7 @@ display: flex;
 .burgerbell
 {
     box-sizing:content-box;
+    justify-content: center;
     text-overflow: clip;
     padding: 25px;
     color: black;
@@ -105,13 +138,14 @@ display: flex;
 
 .lorry
 {
+    height:100px;
     border-image: none;
     box-sizing:content-box;
     text-overflow: clip;
-    padding: 25px;
+    padding: 50px;
     color: black;
     background-color: #E1EBE6;
-    border: 2px solid yellow;
+    border: 2px solid rgba(165, 42, 42, 0.541);
     object-fit:cover;
     font-family: poppins;
     text-align: center;
@@ -128,7 +162,7 @@ display: flex;
     padding: 25px;
     color: black;
     background-color: #E1EBE6;
-    border: 2px solid yellow;
+    border: 2px solid rgba(165, 42, 42, 0.541);
     object-fit:cover;
     font-family: poppins;
     text-align: center;
@@ -180,21 +214,9 @@ background-color: #E1EBE6;
 
 
 
-.Taste
-{
-font-family: poppins;
-font-size: 120%;
-}
 
-#orderhere
-{
-    background-color: #F6B400;
-    font-size: 170%;
-    border-radius:10px 10px 10px;
-    text-transform: uppercase;
-    font-weight: bold;
-    border: none;
-}
+
+
 
 
 font-weight:bold;
