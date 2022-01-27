@@ -1,3 +1,9 @@
+/*General Page*/
+*{
+margin:0px;
+padding:0px;
+}
+
 /* This is the first block */
 #block1
 {}
@@ -13,6 +19,7 @@ color: rgb(126, 126, 5);
 
 #block2
 {
+
 }
 
 .cityburger
@@ -137,4 +144,22 @@ font-size: 120%;
 {
     background-color: #F6B400;
     font-size: 170%;
+    border-radius:10px 10px 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
 }
+
+
+font-weight:bold
+display: inline
+margin:0 20px
+list-style:none
+text-decoration:none
+
+ul li a:hover{
+    color:white
+}
+
+list_style:none;
+position:absolute;
