@@ -16,16 +16,19 @@ font-style: poppins;
 ul li a:hover
 {
     color:white;
-    
+    flex:content;
+    padding-top: 50px;
     
 }
 
 ul li{
     display: inline;
+   
   
     
-}
 
+
+}
 .links
 {
 
@@ -36,14 +39,17 @@ ul li{
     padding-bottom: 30px;
     list-style:none;
     font-weight:bold ;
-    flex-wrap:nowrap;
+    flex-wrap:wrap;
     flex:content;
+    justify-content: space-between;
 
 }
 
 .burgerlogo
 {
-    margin-right: 30px;
+    height:5px;
+    width: auto;
+    margin-right: 20px;
     margin-inline: left;
     height: 60px;
     padding-bottom: 2px;
@@ -53,16 +59,18 @@ ul li{
 
 #burger 
 {
-margin-bottom: 60px;
-height: 5px;
+margin-bottom: 20px;
+height: 20px;
+width: fit-content;
 padding-bottom: 100px;
-padding-top: 2px;
-padding-left: 60px;
+padding-top:auto;
+padding-left: 70px;
 position:relative;
 font-family: poppins;
 color: rgb(230, 215, 18);;
 display: flex;
 overflow: visible;
+font-size: 30px;
 }
 
 
@@ -80,9 +88,11 @@ overflow: visible;
     height: 200px;
     width: 600px;
     padding-top: 20px;
-    padding-bottom:20px;
-width: 500px;
-height: 750px;
+    padding: bottom 60px;
+    align-items: right;
+    flex-wrap: wrap;
+width: 400px;
+height:600px;
 float: right;
 display: inline-flexbox;
 padding-left: 100px;
@@ -110,12 +120,24 @@ font-size: 120%;
 justify-content: center;
 }
 
+.orderhere
+{
+    margin:50px;
+
+    padding-top:5px;
+    padding-bottom:80px;
+}
+
+
+
 #orderhere
 {
     height: 2px 0px 5px;
     margin:10px;
-    padding-left:40px 20px 20px 0px;
-    padding-top: auto;
+    padding-left:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right:20px;
     background-color: orange;
     font-size: 25px;
     border-radius:10px 10px 0px 10px;
@@ -128,13 +150,29 @@ justify-content: center;
 /* This is the third block */
 #block3
 {
-display: flex;
+
 }
 
+
+#block3flexbox
+{
+    height:300px;
+display: inline-flex;
+display:flex;
+box-sizing:content-box;
+ object-fit:cover;
+ text-align: center;
+ margin: 10px;
+ border-radius: 10px;
+ justify-content: space-between;
+  align-items: flex-start;
+   padding-right: 50px;
+}
+      
 .burgerbell
 {
+    margin:5px;
     box-sizing:content-box;
-    justify-content: center;
     text-overflow: clip;
     padding: 25px;
     color: black;
