@@ -232,11 +232,19 @@ box-sizing:content-box;
     font-size: 22pt;
 }
 
-.SeekPng1 .SeekPng2 .SeekPng3
+#menu1
 {
+    padding-top: 50px;
 display: flex;
 display: flexbox;
-width: 200px
+justify-content: space-evenly;
+}
+#menu2
+{
+    padding-top: 50pxGIT;
+   display: flex;
+display: flexbox;
+justify-content: space-evenly;
 }
 
 /* This is the fifth block */
@@ -281,9 +289,9 @@ width: 200px
 }
 .doubleburger2
 {
- float:left;
+ float:right;
     display:flex;  
-    flex-wrap: wrap; 
+    flex:auto; 
 }
 
 body
@@ -307,7 +315,10 @@ background-color: #E1EBE6;
 
 }
 
-
+#click
+{
+    align-items:flex-end;
+}
 
 
 
